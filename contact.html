@@ -42,7 +42,7 @@
   <div class="contact-info">
     <p>Fred Pasqua</p>
     <p>United States</p>
-    <p>Tel <a href="tel:6098765098" role="telephonenumber">(609) 876-5098</a></p>
+    <p>Tel <a href="tel:6098765098" role="link">(609) 876-5098</a></p>
     <p><a href="mailto:fredpasqua74@gmail.com">Send Email</a></p>
   </div>
 
@@ -50,14 +50,14 @@
   <div>
     <p>Lets build something great together!</p>
 
-    <form action="" method="post" id="contact-form">
+    <form action="#" method="post" id="contact-form">
       <label class="standard-label" for="contact-email">Your Email: (required) </label>
       <input type="email" id="contact-email" required>
 
-      <label class="standard-label" for="contact-telephone">Telephone:  </label>
+      <label class="standard-label" for="telephone-number">Telephone:  </label>
       <input type="tel" id="telephone-number" pattern="\d{3}[\-]\d{3}[\-]\d{4}" placeholder="555-555-5555">
 
-      <label class="standard-label message-box" for="area-for-message-upto-240-characters">Enter Message: (Max. Length 240 Characters)  </label>
+      <label class="standard-label message-box" for="message">Enter Message: (Max. Length 240 Characters)  </label>
       <textarea required maxlength="240" id="message"></textarea>
       <input type="submit" value="Send message" class="button-submit-message">
     </form>
