@@ -58,11 +58,12 @@ h1 {
 
 
 p, a {
-
   font-size: 22px;
   font-weight: 300;
-  padding: 5px;
+}
 
+p {
+    padding: 5px;
 }
 
 a:link {
