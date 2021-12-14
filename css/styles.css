@@ -278,6 +278,13 @@ max-width: 300px;
     grid-row: auto / auto;
   }
 
+  .navigation-list  {
+    display: flex;
+    margin-left: auto;
+    left: auto;
+    flex-direction: column;
+  }
+
   h1 {
     font-size: 22px;
   }

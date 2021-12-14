@@ -208,6 +208,7 @@ button:focus,
 .navigation-list li {
   display: inline-block;
   margin-left: 15px;
+
 }
 
 .logo {
@@ -351,6 +352,15 @@ max-width: 300px;
     grid-column: auto / auto;
     grid-row: auto / auto;
   }
+
+  .navigation-list  {
+    display: flex;
+    margin-left: auto;
+    left: auto;
+    flex-direction: column;
+  }
+
+
 
   h1 {
     font-size: 22px;
