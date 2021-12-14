@@ -13,7 +13,7 @@ html {
   background: -webkit-linear-gradient(184deg, rgba(255,255,255,1) 20%, rgba(165,222,201,0.47415730337078654) 100%);
   background: linear-gradient(184deg, rgba(255,255,255,1) 20%, rgba(165,222,201,0.47415730337078654) 100%);
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff",endColorstr="#a5dec9",GradientType=1);
-
+  max-width: 1400px;
 }
 body  {
   font-family: 'Barlow Condensed', sans-serif;
